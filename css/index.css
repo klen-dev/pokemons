@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+* {
+  font-family: "Nosifer", cursive;
+}
+
+main {
+  background-color: yellow;
+  min-height: 100vh;
+}
+
+.card {
+  border: 2px solid black !important;
+  border-radius: 20px !important;
+  background-color: rgb(17, 255, 0) !important;
+  transition: all 0.3s ease-in !important;
+}
+.card:hover {
+  background-color: rgb(99, 213, 42) !important;
+  transition: all 0.3s ease-out !important;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=index.css.map */
